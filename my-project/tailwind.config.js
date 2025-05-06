@@ -10,8 +10,8 @@ export default {
   theme: {
     extend: {
       backgroundImage:{
-        banner: "url('./assets/banner2.avif')"
-      }
+        banner:"url('./assets/banner2.avif')",
+      },
     },
   },
   plugins: [daisyui,],
