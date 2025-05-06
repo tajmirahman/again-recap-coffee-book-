@@ -7,7 +7,7 @@ const Card = ({ cat }) => {
         <div className="card bg-base-100  shadow-sm border-2 border-black mt-4">
             <figure className='w-full h-[300px]'>
                 <img
-                className='w-full h-[300px] object-cover'
+                    className='w-full h-[300px] object-cover'
                     src={cat?.image}
                     alt="Shoes" />
             </figure>
@@ -21,7 +21,8 @@ const Card = ({ cat }) => {
             </div>
 
             <div className="flex justify-end p-4">
-            <Link to={`/cat/${cat?.id}`}><button className="btn btn-warning">Details</button></Link>
+                <Link to={`/coffee/${cat?.id}`}> <button className="btn btn-warning">Details</button>
+                </Link>
             </div>
         </div>
     );
