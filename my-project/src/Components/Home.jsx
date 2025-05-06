@@ -10,7 +10,7 @@ const Home = () => {
     console.log(categories)
 
     return (
-        <div className='mb-6'>
+        <div className='mb-6 mx-10'>
             <div className='my-6 mx-10'>
                 <Banner></Banner>
             </div>
