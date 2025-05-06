@@ -5,8 +5,14 @@ export default {
     "./index.html",
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
+
+
   theme: {
-    extend: {},
+    extend: {
+      backgroundImage:{
+        banner: "url('./assets/banner2.avif')"
+      }
+    },
   },
   plugins: [daisyui,],
 }

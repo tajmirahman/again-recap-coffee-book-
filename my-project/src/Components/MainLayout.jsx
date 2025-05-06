@@ -1,9 +1,18 @@
 import React from 'react';
+import Header from './Header/Header';
+import Footer from './Footer';
+import { Outlet } from 'react-router-dom';
 
 const MainLayout = () => {
     return (
         <div>
-            <h1>Main lay out</h1>
+            <Header></Header>
+
+            {/* daynamic part */}
+            <Outlet></Outlet>
+
+
+            <Footer></Footer>
         </div>
     );
 };
